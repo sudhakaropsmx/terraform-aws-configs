@@ -23,4 +23,4 @@ instance_profile_name = "arn:aws:iam::732813442182:role/ec2-instance"
 remotetags = "infra,app-java"
 remotevarpath = "arp-workspace-activity/dev-vars.yml"
 
-date = "2019-10-23
+date = "2019-10-23"
