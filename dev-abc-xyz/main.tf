@@ -42,7 +42,7 @@ resource "aws_launch_configuration" "master" {
           volume_size           = "40"
           delete_on_termination = "true"
     }
-    user_data = "${file("userdata.file")}"
+#    user_data = "${file("userdata.file")}"
 }
 
 resource "aws_autoscaling_group" "master" {
